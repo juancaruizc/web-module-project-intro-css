@@ -19,6 +19,62 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-button.Plan  {
-   width:100%;
+
+body {
+    main:#DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.plan {
+    padding:26px 26px;
+    display:inline-block;
+    text-decoration:none; 
+    border-radius:6px;
+    background-color:#FF764E;
+    color:white;
+    margin-left:100px;
+    margin-right:150px;
+}
+
+.learn {
+    padding:26px 26px;
+    display:inline-block;
+    text-decoration:none; 
+    border-radius:6px;
+    background-color:#5ED3EB;    ;
+    color:white;
+    margin-left:100px;
+    margin-right:150px;
+}
+
+.get {
+    padding:26px 26px;
+    display:inline-block;
+    text-decoration:none; 
+    border-radius:6px;
+    background-color:#FFCD69;
+    color:white;
+    margin-left:100px;
+    margin-right:150px;
+}
+
+img {
+    border-radius:50%;
+    max-width:20%;
+    margin:5%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;  
+    float:right;
+    margin-right:30%;
+    margin-top:5%;
+}
+
+.come {
+    font-size: 1rem;  
+    float:right;
+    margin-right:30%;
+    margin-top:5%;
 }
