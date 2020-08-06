@@ -58,23 +58,10 @@ body {
     margin-right:150px;
 }
 
-img {
-    border-radius:50%;
-    max-width:20%;
-    margin:5%;
+img.yosemite {
+    border-radius: 50%;
+    height:400px;
+    width:400px;
+    margin-top:50px;
 }
 
-h1 {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 4rem;  
-    float:right;
-    margin-right:30%;
-    margin-top:5%;
-}
-
-.come {
-    font-size: 1rem;  
-    float:right;
-    margin-right:30%;
-    margin-top:5%;
-}
