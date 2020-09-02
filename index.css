@@ -20,14 +20,9 @@ time, mark, audio, video {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 body{
     font-family: 'Roboto Mono', monospace;
-}
-
-h1 {
-    font-family: 'Chelsea Market', cursive;
 }
 
 .button1,.button2,.button3 {
@@ -43,13 +38,31 @@ h1 {
     padding:1%;
 }
 
+.button1:hover {
+background:white;
+color:#FF764E;
+border:2px solid #FF764E;
+}
+
+.button2:hover {
+background:white;
+color:#5ED3EB;
+border:2px solid #5ED3EB;
+}
+
+.button3:hover {
+background:white;
+color:#FFCD69;
+border:2px solid #FFCD69;
+}
+
 .button1 {
     background:#FF764E;
 }
 
 .button2 {
-    background:#5ED3EB
-    ;
+    background:#5ED3EB;
+    
 }
 
 .button3 {
@@ -60,6 +73,7 @@ h1 {
      width:100%;
 }
 
+
 .yosemite {
     border-radius:50%;
     width:20%;
@@ -67,32 +81,36 @@ h1 {
     margin-top:5%;
     margin-left:8%;
     display:inline-block;
+    border: 2px solid red;
 }
-
-header {
-    border:1px solid red;
-}
-
-h1,h2 {
-    width:30%;
-    border:1px solid red;
-    text-align:center;
-}
-
 
 h1 {
-    font-size:5rem;
+    width:80%;
     display:inline-block;
-    width:40%;
     text-align:center;
+    font-size:4rem;
+    margin-left:15%;
+    font-family: 'Chelsea Market', cursive;
+    border: 2px solid red;
 }
 
 h2 {
+    width:50%;
+    text-align:center;
     font-size:1.3rem;
+    margin-left:30%;
+    margin-top:2%;
+    border: 2px solid red;
 }
 
-h1,h2,.yosemite{
-    display:inline-block;
+.sub-heading {
+    border: 2px solid red;
+    width:50%;
+    margin-left:35%;
+}
+
+header {
+    border: 2px solid red;
 }
 
 .bonfire {
